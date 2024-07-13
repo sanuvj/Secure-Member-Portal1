@@ -1,0 +1,12 @@
+-- Create the database
+CREATE DATABASE secure_member_portal;
+-- Use the newly created database
+USE secure_member_portal;
+-- Create the tbl_users table
+CREATE TABLE tbl_users (
+userId INT AUTO_INCREMENT PRIMARY KEY,
+email VARCHAR(255) NOT NULL,
+password VARCHAR(255) NOT NULL,
+fullName VARCHAR(255) NOT NULL,
+city VARCHAR(255) NOT NULL
+);
